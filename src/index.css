@@ -1,3 +1,45 @@
 body {
-    background: yellow;
+    font-family: 'Futura';
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+
+.languages li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.selected-text {
+    color: red;
+}
+
+.repo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.repo-grid li{
+    margin: 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
 }
